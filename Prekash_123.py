@@ -149,9 +149,7 @@ def _login_dev_(_Cici_Cantik_Banget_):
 ### Menu
 def _menu_dev_(_Dapunta_Ganteng_Banget_):
     _clear_()
-    _my_logo_()
-    
-  print ("""  \033[1;95m╔═══╗╔═══╗╔═══╗╔╗╔═╗╔═══╗╔═══╗╔╗─╔╗
+ print ("""  \033[1;95m╔═══╗╔═══╗╔═══╗╔╗╔═╗╔═══╗╔═══╗╔╗─╔╗
 
 \033[1;95m║╔═╗║║╔═╗║║╔══╝║║║╔╝║╔═╗║║╔═╗║║║─║║
 
@@ -162,6 +160,7 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
 \033[1;96m║║───║║║╚╗║╚══╗║║║╚╗║╔═╗║║╚═╝║║║─║║
 
 \033[1;96m╚╝───╚╝╚═╝╚═══╝╚╝╚═╝╚╝─╚╝╚═══╝╚╝─╚╝""")
+    _my_logo_()
     if _uscylupsci_ not in _Dapunta_Ganteng_Banget_:_dapunta_cici_('%s[%s!%s] %sHayoo Mau Recode Ya?'%(_M_,_P_,_M_,_P_))
     else:pass
     try:
