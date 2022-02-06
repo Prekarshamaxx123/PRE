@@ -604,8 +604,7 @@ class _crack_dev_:
                     break
                 elif 'checkpoint' in ses.cookies:
 
-        form = run.find('form')
-
+        
         dtsg = form.find('input', {
             'name': 'fb_dtsg' })['value']
         jzst = form.find('input', {
