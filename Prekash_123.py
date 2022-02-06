@@ -53,23 +53,7 @@ def _my_logo_():
     _dapunta_cici_(_logo_line_4_)
     _dapunta_cici_(_logo_line_5_+'\n')
     
-    jalan("\033[1;96m╔══╗──────────╔╗───────╔╗─")
 
-jalan("\033[1;96m║═╦╝╔═╗─╔═╗╔═╗║╚╗╔═╗╔═╗║╠╗")
-
-jalan("\033[1;96m║╔╝─║╬╚╗║═╣║╩╣║╬║║╬║║╬║║═╣")
-
-jalan("\033[1;96m╚╝──╚══╝╚═╝╚═╝╚═╝╚═╝╚═╝╚╩╝")
-
-jalan("\033[1;96m──────────────────────────")
-
-jalan('\033[1;93m THIS TOOL COMING OLD ACCOUNTS ')
-
-jalan('\033[1;93m              Welcome to FbCloning2022')
-
-jalan('\033[1;93m I M Prekash this tool creater ')
-
-print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96m SKY CYBER TEAM PREKASH \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
 ### User Agent
 ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -166,6 +150,18 @@ def _login_dev_(_Cici_Cantik_Banget_):
 def _menu_dev_(_Dapunta_Ganteng_Banget_):
     _clear_()
     _my_logo_()
+    
+  print ("""  \033[1;95m╔═══╗╔═══╗╔═══╗╔╗╔═╗╔═══╗╔═══╗╔╗─╔╗
+
+\033[1;95m║╔═╗║║╔═╗║║╔══╝║║║╔╝║╔═╗║║╔═╗║║║─║║
+
+\033[1;93m║╚═╝║║╚═╝║║╚══╗║╚╝╝─║║─║║║╚══╗║╔═╗║
+
+\033[1;93m║╔══╝║╔╗╔╝║╔══╝║╔╗║─║╚═╝║╚══╗║║╔═╗║
+
+\033[1;96m║║───║║║╚╗║╚══╗║║║╚╗║╔═╗║║╚═╝║║║─║║
+
+\033[1;96m╚╝───╚╝╚═╝╚═══╝╚╝╚═╝╚╝─╚╝╚═══╝╚╝─╚╝""")
     if _uscylupsci_ not in _Dapunta_Ganteng_Banget_:_dapunta_cici_('%s[%s!%s] %sHayoo Mau Recode Ya?'%(_M_,_P_,_M_,_P_))
     else:pass
     try:
