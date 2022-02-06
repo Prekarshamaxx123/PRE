@@ -41,17 +41,35 @@ _H_ = "\x1b[0;92m" # Hijau
 _U_ = "\x1b[0;95m" # Ungu
 
 ### Logo
-_logo_line_1_ = ('%s ___  __  __ ___ ___ '%(_P_))
-_logo_line_2_ = ('%s|   \|  \/  | _ ) __| %s┌─────────────────────────┐'%(_P_,_U_))
-_logo_line_3_ = ('%s| |) | |\/| | _ \ _|  %s│   %s• ROSE OF DARKNESS•   %s│'%(_P_,_U_,_P_,_U_))
-_logo_line_4_ = ('%s|___/|_|  |_|___/_|   %s│ %sB_L_A_C_K_R_O_S_E_0910_ %s│'%(_P_,_U_,_P_,_U_))
-_logo_line_5_ = ('%s ARGECA TEAM CODE 2022└─────────────────────────┘'%(_U_))
+_logo_line_1_ = ('%s_______________________'%(_P_))
+_logo_line_2_ = ('%s____________________%s┌─────────────────────────┐'%(_P_,_U_))
+_logo_line_3_ = ('%s______________________%s│   \033[1;95m ✓ CODE EDITOR PREKSH ✓ \033[1;95m   %s│'%(_P_,_U_,_P_,_U_))
+_logo_line_4_ = ('%s______________________%s│ %s YOU_CAN_CLONE_OLD_ACCOUNT %s│'%(_P_,_U_,_P_,_U_))
+_logo_line_5_ = ('%s PREKSH CODE 2022└─────────────────────────┘'%(_U_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
     _dapunta_cici_(_logo_line_3_)
     _dapunta_cici_(_logo_line_4_)
     _dapunta_cici_(_logo_line_5_+'\n')
+    
+    jalan("\033[1;96m╔══╗──────────╔╗───────╔╗─")
+
+jalan("\033[1;96m║═╦╝╔═╗─╔═╗╔═╗║╚╗╔═╗╔═╗║╠╗")
+
+jalan("\033[1;96m║╔╝─║╬╚╗║═╣║╩╣║╬║║╬║║╬║║═╣")
+
+jalan("\033[1;96m╚╝──╚══╝╚═╝╚═╝╚═╝╚═╝╚═╝╚╩╝")
+
+jalan("\033[1;96m──────────────────────────")
+
+jalan('\033[1;93m THIS TOOL COMING OLD ACCOUNTS ')
+
+jalan('\033[1;93m              Welcome to FbCloning2022')
+
+jalan('\033[1;93m I M Prekash this tool creater ')
+
+print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96m SKY CYBER TEAM PREKASH \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
 ### User Agent
 ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -141,6 +159,8 @@ def _login_dev_(_Cici_Cantik_Banget_):
     except requests.exceptions.ConnectionError:
         _dapunta_cici_('\n%s[%s!%s] %sKoneksi Bermasalah'%(_M_,_P_,_M_,_P_))
         _cici_cici_()
+        
+        os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 
 ### Menu
 def _menu_dev_(_Dapunta_Ganteng_Banget_):
@@ -177,10 +197,10 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         _tanggal_ = tanggal.replace('-',' ')
     except:
         _tanggal_ = ' '
-    _dapunta_cici_('%s[%s•%s] %sHalo %s%s'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_))
-    _dapunta_cici_('%s[%s•%s] %sID : %s'%(_U_,_P_,_U_,_P_,_id_dev_))
-    _dapunta_cici_('%s[%s•%s] %sIP : %s'%(_U_,_P_,_U_,_P_,_ip_dev_))
-    _dapunta_cici_('%s[%s•%s] %sTgl : %s\n'%(_U_,_P_,_U_,_P_,_tanggal_))
+    _dapunta_cici_('%s[%s@%s] %sHalo %s%s'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_))
+    _dapunta_cici_('%s[%s@%s] %sID : %s'%(_U_,_P_,_U_,_P_,_id_dev_))
+    _dapunta_cici_('%s[%s@%s] %sIP : %s'%(_U_,_P_,_U_,_P_,_ip_dev_))
+    _dapunta_cici_('%s[%s@%s] %sTgl : %s\n'%(_U_,_P_,_U_,_P_,_tanggal_))
     _dapunta_cici_('%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s2%s] %sCrack ID Dari Pengikut'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s3%s] %sCrack ID Dari Likers'%(_U_,_P_,_U_,_P_))
@@ -212,6 +232,8 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Ganteng_Banget_)
+        
+       os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 
 ### Dump ID Publik
 def _publik_dev_(_tok_dev_):
@@ -244,6 +266,8 @@ def _publik_dev_(_tok_dev_):
         time.sleep(2)
         _menu_dev_(_Dapunta_Sayang_Cici_)
     return _crack_dev_(_jso_file_)
+
+os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 
 ### Dump ID Pengikut
 def _followers_dev_(_tok_dev_):
