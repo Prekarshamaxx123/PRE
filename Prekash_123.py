@@ -43,7 +43,7 @@ _U_ = "\x1b[0;95m" # Ungu
 ### Logo
 _logo_line_1_ = ('%s_______________________'%(_P_))
 _logo_line_2_ = ('%s____________________%s┌─────────────────────────┐'%(_P_,_U_))
-_logo_line_3_ = ('%s______________________%s│   \033[1;95m ✓ CODE EDITOR PREKSH ✓ \033[1;95m   %s│'%(_P_,_U_,_P_,_U_))
+_logo_line_3_ = ('%s______________________%s│    ✓ CODE EDITOR PREKSH ✓    %s│'%(_P_,_U_,_P_,_U_))
 _logo_line_4_ = ('%s______________________%s│ %s YOU_CAN_CLONE_OLD_ACCOUNT %s│'%(_P_,_U_,_P_,_U_))
 _logo_line_5_ = ('%s PREKSH CODE 2022└─────────────────────────┘'%(_U_))
 def _my_logo_():
