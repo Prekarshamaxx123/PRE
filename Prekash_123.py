@@ -216,8 +216,6 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Ganteng_Banget_)
-        
-       os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 
 ### Dump ID Publik
 def _publik_dev_(_tok_dev_):
